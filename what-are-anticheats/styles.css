@@ -22,14 +22,30 @@ nav a {
     color: white;
     text-decoration: none;
     margin-right: 15px;
+
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 main {
     padding: 20px;
+    text-align: center; /* <-- added */
 }
 
 section {
     background-color: white;
     padding: 15px;
     margin-bottom: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
 }
